@@ -1293,8 +1293,8 @@ vertical-align:top;
 	 
 	 }
 .SubContenedorPrincipalSeccion{
-	vertical-align:top;  
-	height:441px;  
+/*	vertical-align:top;  
+*/	height:441px;  
 	margin:auto;
 	overflow: auto;
 
@@ -1310,8 +1310,8 @@ vertical-align:top;
 */	margin:auto;
 	margin-left:5px;
 	box-shadow: 5px 5px 5px  #666;
-	vertical-align:top;
-
+/*	vertical-align:top;
+*/
 	}
 .ImagenPrincipalSeccion{
 	display:inline-block;
