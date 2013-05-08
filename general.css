@@ -671,8 +671,7 @@ body{
 	width: 100%;
 	overflow: auto;
 	-webkit-overflow-scrolling: touch;
-	padding-left:0px;
-	 padding:0px;
+	 padding:15px;
 	 
 	 }
 .SubContenedorPrincipalSeccion{
