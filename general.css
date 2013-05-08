@@ -518,7 +518,7 @@ body{
 .SlidePrincipalTitulo {
 	font-family:  Helvetica, sans-serif;
 /*	font-size: 30px;
-*/	color: #666;
+*/	color: #4D4D4D;
 	font-size:15px;
 	text-shadow: 0.1em 0.1em #B8B8B8;
 }
@@ -1123,7 +1123,7 @@ vertical-align:top;
 .SlidePrincipalTitulo {
 	font-family:  Helvetica, sans-serif;
 /*	font-size: 30px;
-*/	color: #666;
+*/	color: #4D4D4D;
 	font-size:15px;
 	text-shadow: 0.1em 0.1em #B8B8B8;
 }
