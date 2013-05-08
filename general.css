@@ -689,8 +689,8 @@ body{
 	width:143px; 
 	margin:auto;
 	margin-left:5px;
-/*	box-shadow: 5px 5px 5px  #666;
-*/	vertical-align:top;
+	box-shadow: 5px 5px 5px  #666;
+	vertical-align:top;
 	}
 .ImagenPrincipalSeccion{
 	display:inline-block;
@@ -1304,11 +1304,12 @@ vertical-align:top;
 	background: rgba(204,204,204,.4); 
 	height:441px; 
 	padding:0px;
-	width:297px; 
-	margin:auto;
+	width:290px;
+/*	width:297px; 
+*/	margin:auto;
 	margin-left:5px;
-/*	box-shadow: 5px 5px 5px  #666;
-*/	vertical-align:top;
+	box-shadow: 5px 5px 5px  #666;
+	vertical-align:top;
 
 	}
 .ImagenPrincipalSeccion{
