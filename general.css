@@ -902,6 +902,7 @@ body{
 	width:90%;
 	max-width:350px;
 	text-align:justify;
+	color:#666666;
 	}
 .NotaExtraLeerMas{
 	margin:auto;
@@ -913,6 +914,7 @@ body{
 	max-width:100px;
 	-moz-border-radius:5px 5px 5px;
 	-webkit-border-radius: 5px 5px 5px;
+	color:#4D4D4D;
 	}
 /*Notas Extras*/
 
@@ -1517,6 +1519,7 @@ vertical-align:top;
 	width:90%;
 	max-width:350px;
 	text-align:justify;
+	color:#666666;
 	}
 .NotaExtraLeerMas{
 	margin:auto;
@@ -1528,6 +1531,7 @@ vertical-align:top;
 	max-width:100px;
 	-moz-border-radius:5px 5px 5px;
 	-webkit-border-radius: 5px 5px 5px;
+	color:#4D4D4D;
 	}
 /*Notas Extras*/
 
@@ -1905,7 +1909,7 @@ vertical-align:top;
 	margin-top:15px;
 	font-size:12px;
 	background-color: rgba(0,0,0,.3);
-	color:#29A9E0;
+	color:#929292;
 	}
 
 	
