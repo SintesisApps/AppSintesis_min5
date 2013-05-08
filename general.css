@@ -406,7 +406,7 @@ body{
 
 
  
-@media screen and (min-width: 0px) and (max-width: 320px) {
+@media screen and (min-width: 0px) and (max-width: 500px) {
 	
 	#home{
 		height:480px;
@@ -782,7 +782,7 @@ body{
 .NotaTitulo{
 	font-family:  Helvetica, sans-serif;
 	font-size: 24px;
-	color: #333;
+	color: #4D4D4D;
 	font-weight:bold;
 	padding-top:10px;
 	margin-left:10px;
@@ -1005,7 +1005,7 @@ body{
  }
  
  
- @media screen and (min-width: 321px) and (max-width: 640px) {
+ @media screen and (min-width: 501px) and (max-width: 640px) {
 	
 	#home{
 		height:640px;
@@ -1394,7 +1394,7 @@ vertical-align:top;
 .NotaTitulo{
 	font-family:  Helvetica, sans-serif;
 	font-size: 24px;
-	color: #333;
+	color:#4D4D4D;
 	font-weight:bold;
 	padding-top:10px;
 	margin-left:10px;
