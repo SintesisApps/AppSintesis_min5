@@ -84,6 +84,20 @@
 	text-align:left;
 	
 	}
+	
+	.panelSeccionTitulo2{
+	width:100%;
+	background-position:center center;
+	background-repeat:no-repeat; 
+	background-size:20px;
+	padding-left:0px;
+	height:20px;
+	color:#666;
+	padding-top:10px;
+	margin-left:0px;
+	text-align:center;
+	
+	}
 .panelSeccionSpacer{
 	width:99%;
 	height:2px;
