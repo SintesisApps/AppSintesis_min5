@@ -44,6 +44,7 @@ body{
 	-moz-border-radius:15px 15px 15px 15px; 
 	-webkit-border-radius:15px 15px 15px 15px; 
 	border:1px solid #707070;
+	margin-top:44px;
 }
 
 .HeadDialogoInfo{
@@ -69,7 +70,7 @@ body{
 	height:20px;
 	margin:auto;
 	text-align:center;
-	padding-top:10px;
+	padding-top:20px;
 	background-color:#0c6090;
 	color:#FFF;
 	border-radius:15px;
