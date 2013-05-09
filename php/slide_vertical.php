@@ -4,7 +4,7 @@ include("../../includes/conexion.php");
 include('../../funciones.php'); 
 
 $contador_seccion=0;
-$array_secciones = array(0, 0, 0, 0, 0, 0, 0, 0);
+$array_secciones = array(0, 0, 0, 0, 0, 0, 0, 0, 0);
 $html="";
 	//$select_app="SELECT * FROM app_articulos WHERE posicion='Slide-Vertical' AND estatus='1' ORDER BY id DESC LIMIT 0,3 ";
 	$cont_art=0;
@@ -45,6 +45,10 @@ while($f_app=mysql_fetch_assoc($r_app)):
 		$r_ar=mysql_query($select_ar,$conexion);
 		
 		while($f_ar=mysql_fetch_assoc($r_ar)):
+		
+		
+		
+		
 			$TituloSlideVertical=$f_ar['titulo'];
 			$SumarioSlideVertical=$f_ar['sumario'];
 			$Id_SeccionSlideVertical=$f_ar['id_seccion'];
@@ -96,21 +100,26 @@ while($f_app=mysql_fetch_assoc($r_app)):
 	
 		endwhile;
 		
-		$html.='<div><a href="#nota" onclick="LeerNota('.$id_nota_app.')">
-					<div class="SlideVerticalArticulo">
-						<div class="SlideVerticalSeccion"><img src="imagenes/iconos/secciones/'.$SeccionSlideVertical.'.png"></div>
-						<div class="SlideVerticalImagen"><img src="'.$url_dominio_.'/images/'.$ruta_img.'" > </div>
-						<div class="SlideVerticalContenido">
-						  <div class="SlideVerticalTitulo">'.$TituloSlideVertical.'</div>
-						  <div class="SlideVerticalAutor">'.$AutorSlideVertical.'</div>
-						  <div class="SlideVerticalFecha">'.$Fecha_CreacionSlideVertical.'</div>
-						 
+		if($array_secciones[$Id_SeccionSlideVertical]=='0')
+		{
+		
+			$html.='<div><a href="#nota" onclick="LeerNota('.$id_nota_app.')">
+						<div class="SlideVerticalArticulo">
+							<div class="SlideVerticalSeccion"><img src="imagenes/iconos/secciones/'.$SeccionSlideVertical.'.png"></div>
+							<div class="SlideVerticalImagen"><img src="'.$url_dominio_.'/images/'.$ruta_img.'" > </div>
+							<div class="SlideVerticalContenido">
+							  <div class="SlideVerticalTitulo">'.$TituloSlideVertical.'</div>
+							  <div class="SlideVerticalAutor">'.$AutorSlideVertical.'</div>
+							  <div class="SlideVerticalFecha">'.$Fecha_CreacionSlideVertical.'</div>
+							 
+							</div>
 						</div>
-					</div>
-				</a></div>
-				<div > 
-            
-        </div>';
+					</a></div>
+					<div > 
+				
+			</div>';
+		 		$array_secciones[$Id_SeccionSlideVertical]='1';
+		}
 		
 		$cont_art++;
 		
