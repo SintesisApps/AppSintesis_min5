@@ -145,8 +145,9 @@
 /*Panel De Iconos*/
 .panelIcono{
 	min-width: 100px;
-	height: 270px;
-	overflow-y: auto;
+	height:250px;
+/*	height: 270px;
+*/	overflow-y: auto;
 	overflow-x: auto;
 	left: -250%;
 	top:0;
