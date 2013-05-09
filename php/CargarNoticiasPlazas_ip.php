@@ -87,6 +87,7 @@ $seccion="nacion";
 								<div class="TextoPrincipalSeccion">
 								  <div class="TituloPrincipalSeccion">'.$TituloPlaza.'</div>
 								  <div class="SeccionPrincipalSeccion">'.$SeccionPlaza.'</div>
+								  <div class="AutorPrincipalSeccion">  </div>
 								  <div class="FechaPrincipalSeccion">'.$Fecha_CreacionPlaza.'</div>
 								</div>
 							  </div>
@@ -184,7 +185,7 @@ $seccion="nacion";
 										<div class="SlideVerticalImagen"><img src="'.$url_dominio_.'/images/imagenes-articulos/'.$imagen.'" ></div>
 										<div class="SlideVerticalContenido">
 										  <div class="SlideVerticalTitulo">'.$TituloSlideVertical.'</div>
-										  <div class="SlideVerticalAutor">'.$AutorSlideVertical.'</div>
+										  <div class="SlideVerticalAutor"></div>
 										  <div class="SlideVerticalFecha">'.$Fecha_CreacionSlideVertical.'</div>
 										</div>
 									  </div>
@@ -376,7 +377,7 @@ $select_app="SELECT * FROM app_articulos WHERE posicion='Slide-Principal-Interio
                 <div class="TextoPrincipalSeccion">
                   <div class="TituloPrincipalSeccion">'.$TituloPlaza.'</div>
                   <div class="SeccionPrincipalSeccion">'.$SeccionPlaza.' </div>
-                  <div class="AutorPrincipalSeccion"> '.$AutorPlaza.' </div>
+                  <div class="AutorPrincipalSeccion"> </div>
                   <div class="FechaPrincipalSeccion"> '.$Fecha_CreacionPlaza.' </div>
                 </div>
               </div>

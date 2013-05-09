@@ -737,7 +737,7 @@ height:200px;
 	}
 .TituloPrincipalSeccion{
 	font-family:  Helvetica, sans-serif;
-	font-size: 14px; 
+	font-size: 13px; 
 	font-weight:bold;
 	color: #666;
 	text-shadow: 0.1em 0.1em #B8B8B8;
@@ -746,7 +746,7 @@ height:200px;
 	}
 .SeccionPrincipalSeccion{
 	font-family:Helvetica, sans-serif;
-	font-size: 12px;
+	font-size: 11px;
 	color: #0c6090;
 	text-shadow:none;
 	padding-top:10px;
@@ -754,14 +754,14 @@ height:200px;
 	}
 .AutorPrincipalSeccion{
 	font-family:Helvetica, sans-serif;
-	font-size:12px;
+	font-size:11px;
 	color:#0c6090;
 	text-shadow:none;
 	margin-left:8px;
 	}
 .FechaPrincipalSeccion{
 	font-family:Helvetica, sans-serif;
-	font-size: 12px;
+	font-size: 11px;
 	color: #0c6090;
 	text-shadow:none;
 	margin-left:8px;
@@ -1367,7 +1367,7 @@ vertical-align:top;
 	}
 .TituloPrincipalSeccion{
 	font-family:  Helvetica, sans-serif;
-	font-size: 14px; 
+	font-size: 13px; 
 	font-weight:bold;
 	color: #666;
 	text-shadow: 0.1em 0.1em #B8B8B8;
