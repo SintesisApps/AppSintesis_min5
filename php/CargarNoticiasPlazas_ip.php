@@ -27,7 +27,7 @@ $seccion="nacion";
 				//$select_app="SELECT * FROM app_articulos WHERE plaza='nacionales' AND estatus='1' and posicion='Slide-Principal' ORDER BY id DESC  ";
 				$select_app="SELECT * FROM app_articulos WHERE posicion='Slide-Principal-Interior' and estatus='1' and plaza='nacionales'
 											UNION
-										SELECT * FROM app_publicidad where posicion='principal-interior' and estatus='1' and plaza='nacionales' ORDER BY orden DESC";
+										SELECT * FROM app_publicidad where posicion='principal-interior-cel' and estatus='1' and plaza='nacionales' ORDER BY orden DESC";
 				
 					$r_app=mysql_query($select_app,$conexion);
 					while($f_app=mysql_fetch_assoc($r_app)):
@@ -113,7 +113,7 @@ $seccion="nacion";
 				
 				$select_app="SELECT * FROM app_articulos WHERE posicion='Slide-Vertical' and estatus='1' and plaza='nacionales'
 											UNION
-								SELECT * FROM app_publicidad where posicion='Slide-Vertical' and estatus='1'  and plaza='nacionales'
+								SELECT * FROM app_publicidad where posicion='Slide-Vertical-cel' and estatus='1'  and plaza='nacionales'
 								ORDER BY orden DESC";
 				
 				
