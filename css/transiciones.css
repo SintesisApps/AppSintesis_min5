@@ -27,8 +27,9 @@
 
 .TransicionFadeOut{
 	min-width: 0;
-	height: 400px;
-	top: 0;
+	height:480px;
+/*	height: 480px;
+*/	top: 0;
 	left: 0;
 	overflow-y: auto;
 	overflow-x: hidden;
@@ -37,7 +38,8 @@
 	transition: opacity 1s ease-in-out;
 	-moz-transition: opacity 1s ease-in-out;
 	-webkit-transition: opacity 1s ease-in-out;
-	z-index: -1;	
+	z-index: -1;
+
 
 }
 .TransicionFadeOut:target{
@@ -238,8 +240,9 @@
 
 .TransicionFadeOut{
 	min-width: 0;
-	height: 480px;
-	top: 0;
+	height:480px;
+/*	height: 480px;
+*/	top: 0;
 	left: 0;
 	overflow-y: auto;
 	overflow-x: hidden;
