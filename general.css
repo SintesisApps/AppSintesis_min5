@@ -560,9 +560,8 @@ body{
 	}
 .ContenedorSlideVertical {
 	width: 296px;
-	background:#03F;
-/*	background: rgba(204,204,204,.4);
-*/    position: relative;
+	background: rgba(204,204,204,.4);
+    position: relative;
 	/*margin: 7px;*/
 	margin-left:12px;
 	margin-right:12px;
@@ -570,11 +569,19 @@ body{
 	overflow: auto;
 /*	-webkit-overflow-scrolling: touch;
 */	margin-bottom:50px;
-	height:220px;
-	
+height:200px;
+
+
+
+
+/*		height:220px;
+*/	
 	
 }
 
+#vertical_seccion{
+	height:100px;
+}
 .SlideVerticalSeccion {
 	position:absolute;
 	margin:0;
