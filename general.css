@@ -55,7 +55,7 @@ body{
 	vertical-align:top;
 	-moz-border-radius:5px 5px 5px 5px;
 	-webkit-border-radius:5px 5px 5px 5px;
-	padding-top:10px;
+	padding-top:40px;
 	background: -webkit-linear-gradient(#999, #000);
    background: -moz-linear-gradient(#999, #000);
    background: -o-linear-gradient(#999, #000);
@@ -70,7 +70,7 @@ body{
 	height:20px;
 	margin:auto;
 	text-align:center;
-	padding-top:44px;
+	padding-top:10px;
 	background-color:#0c6090;
 	color:#FFF;
 	border-radius:15px;
@@ -1016,7 +1016,7 @@ body{
  }
  
  
- @media screen and (min-width: 501px) and (max-width: 640px) {
+ @media screen and (min-width: 321px) and (max-width: 640px) {
 	
 	#home{
 		height:640px;
