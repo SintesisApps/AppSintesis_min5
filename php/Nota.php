@@ -67,9 +67,10 @@ endwhile;
 
 
 $html="back_".$SeccionSeudonimo.'&'.$Seccion.'&'.$imagen.'&'.$Titulo.'&'.$Sumario.'&'.$Autor.'&'.$Fecha_Creacion.'&'.$Nota;
-
+$contador_extras = 0;
 	  
-$select_app="SELECT * FROM app_articulos WHERE id!='".$id."' AND plaza='".$plaza_app."' AND estatus =1 ORDER BY id DESC";
+/*$select_app="SELECT * FROM app_articulos WHERE id!='".$id."' AND plaza='".$plaza_app."' ORDER BY id DESC LIMIT 3";
+*/$select_app="SELECT * FROM app_articulos WHERE id!='".$id."' AND plaza='".$plaza_app."' AND estatus =1 ORDER BY id DESC";
 $r_app=mysql_query($select_app,$conexion);
 while($f_app=mysql_fetch_assoc($r_app)):
 	$id_nota_app=$f_app['id'];
@@ -84,7 +85,7 @@ while($f_app=mysql_fetch_assoc($r_app)):
 				if(mysql_num_rows($r_ar)>0)
 				{
 				
-					if($contador_extras < 1)
+					if($contador_extras < 3)
 					{
 						while($f_ar=mysql_fetch_assoc($r_ar)):
 						

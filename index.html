@@ -339,15 +339,34 @@
 		
 		function CargarNoticiasHome()
 	{
-		alert("mmbn");
+	//alert("mmbn");
+		
+		//$("#vertical_seccion").hide();
+		slideVertical2();
 		slidePrincipal();
 		slideMiniatura();
-		document.getElementById("content_slideVertical").innerHTML="";
-		document.getElementById("vertical_seccion").innerHTML="";
-		//slideVertical();
 		galeriaImagenes();
 		galeria_video();	
 		minuto_minuto();
+		function slideVertical2()
+			{//ContenedorDivMedio
+				
+				$.ajax({
+				type: "POST",
+				url: "http://166.78.193.53/AppSintesis/php/slide_vertical.php",
+				data: "",
+				cache: false,
+				success: function(message)
+				{
+					$('.DivVertical').html(
+					' <div  class="ContenedorSlideVertical" id="content_slideVertical" >'+message+'</div>'
+					
+					)
+				}
+				});
+			}
+		
+		
 	} 
 	
 	function CargarNoticiasPlaza(plaza)
