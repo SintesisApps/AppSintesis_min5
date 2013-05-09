@@ -669,12 +669,12 @@ body{
 	}
 .ContenedorPrincipalSeccion{
 	vertical-align:top;
-	height:143px;
+	height:212px;
 /*	height:212px;
 */	width: 100%;
 	overflow: auto;
 	-webkit-overflow-scrolling: touch;
-	padding-top:54px;
+	padding-top:39px;
 /*	 padding:15px;
 */	 
 	 }
@@ -688,7 +688,7 @@ body{
 	display:inline-block; 
 	overflow:hidden;
 	background: rgba(204,204,204,.4); 
-	height:217px; 
+	height:212px; 
 	padding:0px;
 	width:143px; 
 	margin:auto;
