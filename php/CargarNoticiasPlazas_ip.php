@@ -113,7 +113,7 @@ $seccion="nacion";
 				
 				$select_app="SELECT * FROM app_articulos WHERE posicion='Slide-Vertical' and estatus='1' and plaza='nacionales'
 											UNION
-								SELECT * FROM app_publicidad where posicion='Slide-Vertical-cel' and estatus='1'  and plaza='nacionales'
+								SELECT * FROM app_publicidad where posicion='Slide-Vertical-Cel' and estatus='1'  and plaza='nacionales'
 								ORDER BY orden DESC";
 				
 				
