@@ -174,11 +174,34 @@
 	padding: 20px 0;
 }
 .swiper-wrapper{
-	margin-top:50px;}
+	margin-top:70px;}
 
 .swiper-slide{
 	background-size:150px;}
 	
 	
  }
+ 
+  @media screen and (min-width: 321px) and (max-width: 640px) {
+.main {
+	width: 640px;
+	height:480px;
+}
+
+.appstore.swiper-container, .appstore .swiper-slide {
+	width: auto;
+	height: 55%;
+}
+.appstore.swiper-container {
+	padding: 20px 0;
+}
+.swiper-wrapper{
+	margin-top:70px;}
+
+.swiper-slide{
+	background-size:150px;}
+	
+	
+ }
+ 
  
