@@ -411,7 +411,6 @@ body{
 	
 	#home{
 		height:480px;
-		background-color:#000000;
 	}
 	/*Slide miniaturas*/
 
@@ -561,8 +560,9 @@ body{
 	}
 .ContenedorSlideVertical {
 	width: 296px;
-	background: rgba(204,204,204,.4);
-    position: relative;
+	background:#03F;
+/*	background: rgba(204,204,204,.4);
+*/    position: relative;
 	/*margin: 7px;*/
 	margin-left:12px;
 	margin-right:12px;
